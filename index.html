@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1 style="font-size: 50px;">Ejemplo de formularios</h1>
+    <form>
+        <label for="txt_nombre" style="font-size: 18px;">Nombre:</label> 
+        <br>
+        <input type="text" name="txt_nombre" placeholder="Ingrese sus nombres"> 
+
+        <br>
+        <br>
+        <label for="lst_pais" style="font-size: 18px;">País</label>
+        <select name="lst_pais" id="lst_pais">
+            <option value="1">Guatemala</option>
+            <option value="2">El Salvador</option>
+            <option value="3">Honduras</option>
+        </select>
+
+        <br>
+
+        <label for="">Masculino</label>
+        <input type="radio" value="M" name="opt_genero">
+        <label for="">Femenino</label>
+        <input type="radio" value="F" name="opt_genero">
+        <br>
+        <br> 
+        <label for="txt_estadoc" style="font-size: 18px;">Estado Civil:</label>
+
+        <br>
+
+        <label for="">Soltero (a)</label>
+        <input type="radio" value="S" name="opt_estado_civil">
+        <label for="">Casado</label>
+        <input type="radio" value="C" name="opt_estado_civil">
+        <label for="">Otro</label>
+        <input type="radio" value="O" name="opt_estado_civil">
+        <br>
+        <br>
+
+        <label for="txt_password" style="font-size: 18px;">Contraseña:</label>
+        <input type="password" name="txt_password" placeholder="Ingrese su Contraseña">
+
+        <br>
+        <br>
+
+        Estoy interesado en
+        <label for="">Juegos </label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Música </label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Cine </label>
+        <input type="checkbox" name="chk_intereses"> 
+
+        <br>
+        <br>
+        Comida favorita:
+        <label for="">Pizza </label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Hamburguesas </label>
+        <input type="checkbox" name="chk_intereses">
+        <label for="">Carne</label>
+        <input type="checkbox" name="chk_intereses"> 
+
+        <br>
+        <input type="date">
+        <br>
+        
+        <input type="email">
+        <br>
+
+        <input type="submit" name="btn_guardar" value="Guardar">
+
+
+    </form>
+</body>
+</html>
